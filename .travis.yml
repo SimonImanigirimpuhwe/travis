@@ -12,5 +12,5 @@ cache:
 script:
   - npm run test
 
-# notifications:
-#    email: false
+notifications:
+   email: false
