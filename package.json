@@ -1,0 +1,20 @@
+{
+  "name": "travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --testTimeout=6000",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
